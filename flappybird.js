@@ -38,13 +38,13 @@ bottomPipeImg.src = "bottompipe.png";
 
 const bgm = new Audio("minibgm.mp3");
 bgm.loop = true;
-bgm.volume = 0.5;
+bgm.volume = 0.4;
 
 const sfxWing = new Audio("sfx_wing.wav");
 const sfxPoint = new Audio("sfx_point.wav");
 sfxPoint.volume = 0.1;
-const sfxHit = new Audio("Hit.mp4");
-sfxHit.volume = 0.5;
+const sfxHit = new Audio("Hit.mp3");
+sfxHit.volume = 1.0;
 const sfxDie = new Audio("sfx_die.wav");
 
 /* ================= UI ================= */
