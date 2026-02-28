@@ -36,7 +36,7 @@ bottomPipeImg.src = "bottompipe.png";
 
 /* ================= AUDIO ================= */
 
-const bgm = new Audio("bgm_mario.mp3");
+const bgm = new Audio("minibgm.mp3");
 bgm.loop = true;
 bgm.volume = 0.3;
 
