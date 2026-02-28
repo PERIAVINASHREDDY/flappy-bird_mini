@@ -23,7 +23,7 @@ const ctx = canvas.getContext("2d");
 /* ================= IMAGES ================= */
 
 const bgImg = new Image();
-bgImg.src = "flappybirdbg.png";
+bgImg.src = "minibg.png";
 
 const playerImg = new Image();
 playerImg.src = "mini.png";
@@ -38,7 +38,7 @@ bottomPipeImg.src = "bottompipe.png";
 
 const bgm = new Audio("bgm_mario.mp3");
 bgm.loop = true;
-bgm.volume = 0.4;
+bgm.volume = 0.3;
 
 const sfxWing = new Audio("sfx_wing.wav");
 const sfxPoint = new Audio("sfx_point.wav");
