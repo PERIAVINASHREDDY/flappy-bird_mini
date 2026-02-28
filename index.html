@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Mini Nithish</title>
+
+<link rel="icon" type="image/png" sizes="192x192" href="mini.png">
+<link rel="stylesheet" href="flappybird.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="game-container">
+    <div id="ui-layer">
+
+        <!-- START SCREEN -->
+        <div id="start-screen" class="screen">
+            <h1 class="game-title">Mini Nithish</h1>
+            <p class="subtitle">PRESS SPACE || TAP TO FLY</p>
+
+            <div class="character-preview">
+                <img src="mini.png" alt="Player" id="preview-img">
+            </div>
+
+            <button id="start-btn">START GAME</button>
+        </div>
+
+        <!-- SCORE BOARD -->
+        <div id="score-board" class="hidden">
+            <div class="score-container">
+                <span class="label" style="color: #000000; font-weight:900;">New Record?</span>
+                <span class="label">SCORE</span>
+                <span id="current-score">0</span>
+            </div>
+        </div>
+
+        <!-- GAME OVER -->
+        <div id="game-over-screen" class="screen hidden">
+            <div class="game-over-content">
+                <h2 class="game-over-title">GAME OVER</h2>
+
+                <div class="gif-container">
+                    <img src="mini.gif" class="game-over-gif">
+                </div>
+
+                <div class="final-stats">
+                    <div class="stat">
+                        <span class="label">SCORE</span>
+                        <span id="final-score">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">BEST</span>
+                        <span id="best-score">0</span>
+                    </div>
+                </div>
+
+                <button id="restart-btn">TRY AGAIN!</button>
+            </div>
+        </div>
+
+    </div>
+
+    <canvas id="game-canvas"></canvas>
+</div>
+
+<script src="flappybird.js"></script>
+</body>
+</html>
