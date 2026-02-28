@@ -42,8 +42,9 @@ bgm.volume = 0.5;
 
 const sfxWing = new Audio("sfx_wing.wav");
 const sfxPoint = new Audio("sfx_point.wav");
-sfxPoint.volume = 0.2;
+sfxPoint.volume = 0.1;
 const sfxHit = new Audio("Hit.mp4");
+sfxHit.volume = 0.5;
 const sfxDie = new Audio("sfx_die.wav");
 
 /* ================= UI ================= */
